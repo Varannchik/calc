@@ -7,16 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>    
-    <div class="container">
-        <h1>Навигация по DOM. Работа с элементами</h1>
-        <input type="text">
-        <button>+</button>
+<body>
+    <h1>Scope</h1>
+    <p>Условия, функции, циклы имеют свое область видимости</p>
 
-        <div class="dqs">
-            <!-- <h3>this div</h3> -->
-        </div>
-    </div>
-    <script src="main.js"></script>
+    <input type="number" id='val1'>
+    <input type="number" id='val2'>
+    <button type="button" onclick="calc.sum()">+</button>
+    <button type="button" onclick="calc.div()">/</button>
+    <button type="button" onclick="calc.minus()">-</button>
+    <button type="button" onclick="calc.mult()">*</button>
+    <p></p>
+    <script src="main.js"></script>    
 </body>
 </html>
