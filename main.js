@@ -6,6 +6,7 @@ let calc={
         
         document.querySelector('#val1').value=this.value1 + this.value2;
         document.querySelector('#val2').value=0;
+        console.log(this.value1 + this.value2);
                 
     },
     minus:function(){
