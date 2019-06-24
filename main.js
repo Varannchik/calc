@@ -1,7 +1,7 @@
 
 let calc={
-    let value1:'null',
-    let value2:'null',
+    value1:'null',
+    value2:'null',
     sum:function(){
         this.read();
         document.querySelector('#val1').value=value1 + value2;
@@ -24,8 +24,8 @@ let calc={
         document.querySelector('#val2').value=0;
     },
     read:function(){
-        value1=+document.querySelector('#val1').value;
-        value2=+document.querySelector('#val2').value;
+        let value1=+document.querySelector('#val1').value;
+        let value2=+document.querySelector('#val2').value;
     } 
 };
 
